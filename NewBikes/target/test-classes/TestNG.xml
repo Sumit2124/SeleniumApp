@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Identify New Bikes">
+	<test name="FunctionalTesting">
+		<parameter name="Browser" value="Firefox" />
+		<classes>
+		<class name="TestSuite.AllTest" />
+			<!-- <class name="TestSuite.SmokeTest" /> -->
+		<!--	<class name="Pages.HondaDetails" /> -->
+		</classes>
+	</test>
+</suite>
